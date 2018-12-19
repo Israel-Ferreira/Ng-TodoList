@@ -1,0 +1,14 @@
+<div class="todo-list">
+  <app-error-advice [message]="mensagemErro" *ngIf="errou"></app-error-advice>
+  <div class="form-task">
+    <input type="text" class="inpt-task" #task placeholder="Digite aqui sua tarefa" />
+    <div class="buttons">
+      <button class="btn btn-ok" (click)="adicionarTarefa(task.value)">Adicionar Tarefa</button>
+    </div>
+  </div>
+  <div class="task-div" *ngIf="listaTarefas.length > 0">
+    <ul class="task-list">
+      <li *ngFor="let task of listaTarefas">{{ task }}</li>
+    </ul>
+  </div>
+</div>

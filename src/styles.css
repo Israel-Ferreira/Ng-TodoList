@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(33, 33, 187);
+}
+
+.btn{
+  border: none;
+  height: 40px;
+}
+
+.btn:focus{
+  outline: none;
+}

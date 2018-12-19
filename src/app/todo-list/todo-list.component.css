@@ -1,0 +1,21 @@
+.todo-list{
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.form-task{
+  margin: 1% auto;
+  background-color: #FFF;
+  height: 120px;
+  width: 50%;
+}
+
+.inpt-task {
+  margin: 1%;
+  height: 50px;
+  width: 80%;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
