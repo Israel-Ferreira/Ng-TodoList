@@ -1,0 +1,22 @@
+.card {
+  margin: 1% auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  text-align: center;
+  background-color: #FFF;
+  width: 50%;
+}
+
+.card-title{
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px){
+  .card {
+    width: 97%;
+    margin: 1%;
+    padding: 4px;
+  }
+}

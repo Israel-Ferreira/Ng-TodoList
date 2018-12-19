@@ -10,21 +10,21 @@ import { Component, OnInit } from '@angular/core';
 export class TodoListComponent implements OnInit {
 
   listaTarefas: Array<string> = [];
-  errou = false;
-  mensagemErro = '';
 
   constructor() { }
 
   ngOnInit() {
   }
 
+
   adicionarTarefa(valor) {
     if (valor) {
       this.listaTarefas.push(valor);
-    } else {
-      this.mensagemErro = 'Tarefa Vazia; Tente Outra vez';
-      this.errou = true;
     }
+  }
+
+  removerTarefa(id: number) {
+    this.listaTarefas.splice(id, 1);
   }
 
 }

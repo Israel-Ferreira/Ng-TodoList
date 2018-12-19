@@ -1,8 +1,11 @@
-.app{
-  margin: 1%;
+
+.app-div{
+  margin: 4px;
 }
 
 .app-title{
   text-align: center;
   color: #FFF;
+  font-size: 32px;
+  font-weight: 200;
 }
